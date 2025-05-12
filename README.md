@@ -15,4 +15,4 @@ Evaluate recall@K and loss curves for object and relation objectives with
   --batch-size 1 \
   --N 8`
 
-  
+For moderately-intense machines, increase `batch-size` and `N`. Also can increase the image sample size for testing at the top of the file in `scripts/prepare_subset.py` via `SUBSET_SIZE`. 
